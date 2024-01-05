@@ -3,7 +3,7 @@
 * JavaScript
 * ES6
 
-* ]Install NodeJS 12.11.x
+* Install NodeJS 12.11.x
 (in your home directory):
 
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
@@ -22,10 +22,10 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 * Configuration files
 Add the files below to your project directory
 
-* package.json
-Click to show/hide file contents
+# package.json
+* Click to show/hide file contents
 
-{
+* {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "lint [0-9]*.js",
@@ -46,10 +46,10 @@ Click to show/hide file contents
 }
 
 
-* babel.config.js
-Click to show/hide file contents
+# babel.config.js
+* Click to show/hide file contents
 
-module.exports = {
+* module.exports = {
   presets: [
     [
       '@babel/preset-env',
@@ -63,10 +63,10 @@ module.exports = {
 };
 
 
-* .eslintrc.js
-Click to show/hide file contents
+# .eslintrc.js
+* Click to show/hide file contents
 
-module.exports = {
+* module.exports = {
   env: {
     browser: false,
     es6: true,
